@@ -21,7 +21,8 @@ class Edge_setup:
         service = Service("src/edge_web/msedgedriver")
 
         driver = webdriver.Edge(service=service, options=options)
-        Edge_setup.testing_edge_driver(driver)
+        # Edge_setup.testing_edge_driver(driver)
+        
         return driver
     
     @staticmethod
